@@ -1,0 +1,17 @@
+export  const movie = {
+    id: "",
+    title: "",
+    year: "",
+    genres: [],
+    ratings: [],
+    poster: "",
+    contentRating: "",
+    duration: "",
+    releaseDate: "",
+    averageRating: 0,
+    originalTitle: "",
+    storyline: "",
+    actors: [],
+    imdbRating: "",
+    posterurl: "",
+}

@@ -1,0 +1,9 @@
+@import 'components.css';
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+    color: white;
+
+}

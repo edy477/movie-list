@@ -1,0 +1,62 @@
+.container__content{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.movie{
+    padding: 0.5em;
+}
+
+.content-title{
+    text-align: left;
+    color: #5e7787;
+
+
+
+}
+.movie-image{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.movie-title{
+    font-size: 1.3em;
+    text-align: left;
+    font-weight: normal;
+}
+.movie__content{
+    text-align: left;
+}
+.movie__content--summary{
+    font-size: 1em;
+    font-weight: normal;
+
+
+}
+.movie-rating{
+    display: flex;
+    flex-flow: column;
+}
+.movie-summary{
+    font-weight: normal;
+    font-size: 1.1em;
+}
+.movie__content--subsection{
+    color: #5e7787;
+}
+.movie-storyline{
+    font-weight:normal;
+    font-size: 0.98em;
+    color: #d9dfd1;
+}
+
+.movie-actors{
+    font-style: italic;
+    font-weight: lighter;
+}
+.release-date{
+    font-weight: lighter;
+
+}
